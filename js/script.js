@@ -39,3 +39,11 @@ $(function() {
 //         return false;
 //     }
 // });
+
+$(document).ready(function() {
+    $(".hamburger").on(click, function() {
+        $(".nav-grid .menu").toggleClass("open");
+
+    });
+});
+const myFunction = (x) => x.classList.toggle("change");
